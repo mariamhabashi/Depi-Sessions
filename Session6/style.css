@@ -1,0 +1,190 @@
+.dotted {
+    border: 1px dotted black;
+}
+
+.dashed {
+    border: 1px dashed black;
+}
+
+.solid {
+    border: 1px solid black;
+}
+
+.double {
+    border: 3px double black;
+}
+
+.groove {
+    border: 1px groove black;
+}
+
+.ridge {
+    border: 1px ridge black;
+}
+
+.inset {
+    border: 1px inset black;
+}
+
+.outset {
+    border: 1px outset black;
+}
+
+.none {
+    border: none;
+}
+
+.hidden {
+    border: hidden;
+}
+
+.mix {
+    border-style: dotted dashed solid double;
+}
+.one {
+    border-style: solid;
+    border-width: 5px;
+}
+
+.two {
+    border-style: dashed;
+    border-width: medium;
+}
+
+.three {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+.four {
+    border-style: double;
+    border-width: 15px;
+}
+
+.five {
+    border-style: inset;
+    border-width: thick;
+}
+
+.six {
+    border-style: outset;
+    border-width: thin;
+}
+
+.seven {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.eight {
+    border-style: solid;
+    border-width: 10px;
+}
+
+/* Border Color */
+.colorName {
+    border-style: solid;
+    border-color: red;
+}
+
+.hexBorder {
+    border-style: solid;
+    border-color: #ff0000;
+}
+
+.rgbBorder {
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+}
+
+.hslBorder {
+    border-style: solid;
+    border-color: hsl(0, 100%, 50%);
+}
+.MixedBorder{
+    border-style: solid;
+    border-color: red green blue yellow;
+}
+
+/*Border Sides*/
+.sideStyle{
+    border-top-style:dotted ;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+/*Border Shorthand*/
+.borderShort{
+    border:solid 5px red
+}
+/*Border One Side*/
+.leftSide{
+    border-left: solid 5px cyan;
+}
+.bottomSide{
+    border-bottom: solid 5px blueviolet;
+}
+/*rounded border*/
+.rounded{
+    border: solid 2px green;
+    border-radius: 5px;
+}
+/*Margins*/
+.margins{
+    margin: 50px;
+    border:solid 1px blue;
+}
+.sideMargin{
+    border: solid 1px black;
+    background-color: aquamarine;
+    margin-top: 100px;
+    margin-right:150px;
+    margin-bottom: 100px;
+    margin-left:50px;
+}
+.sideMargin{
+    margin: 150px 100px 50px 200px;
+    /*Top Right Bottom Left*/
+}
+#parent1{
+border: solid 1px orange;
+margin-left: 100px;
+}
+.child1{
+margin-left: inherit;
+}
+#div1{
+    border:solid 1px magenta;
+    padding: 70px;
+}
+#div2{
+    border: solid 1px yellow;
+    background-color: gainsboro;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 90px;
+    padding-bottom: 70px;
+}
+#div3{
+    background-color: greenyellow;
+    height: 200px;
+    width: 20%;
+}
+#div4{
+    background-color: cadetblue;
+    width: 300px;
+    height: 150px;
+}
+#div5{
+    background-color: palegoldenrod;
+    max-width: 250px;
+}
+/*Box Model*/
+#div6{
+    background-color: coral;
+    border: solid 10px purple;
+    margin: 25px;
+    padding: 50px;
+    width: 100px;
+    
+}

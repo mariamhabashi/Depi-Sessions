@@ -1,0 +1,143 @@
+/*Links*/
+a:link{
+    color: black;
+    text-decoration: none;
+    background-color: gray;
+}
+a:visited{
+    color: blue;
+    text-decoration: none;
+    background-color: rgb(125, 159, 233);
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+    background-color: darkred;
+}
+a:active{
+    color: green;
+    text-decoration: underline;
+    background-color: lightgreen;
+}
+a:link,a:visited{
+    background-color: cadetblue;
+    color: darkblue;
+    padding: 14px 24px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover,a:active{
+    background-color: crimson;
+}
+ul.a{
+    list-style-type: circle;
+}
+ul.a{
+    list-style-type: square;
+}
+ol.b{
+    list-style-type:lower-greek;
+}
+ol.b{
+    list-style-type:upper-latin;
+}
+ol.b{
+    list-style-type:upper-roman;
+}
+ol.b{
+    list-style-image: url(); /*add image as icon*/
+}
+ul.c{
+    list-style-position: inside;
+    background-color: blanchedalmond;
+}
+ul.d{
+    list-style-position: outside;
+    background-color: rgb(247, 228, 153);
+}
+ol.e{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/*Tables*/
+table,td,th{
+    border: solid 3px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    height:50px;
+}
+th{
+    height: 40px;
+    text-align: center;
+}
+td{
+    text-align: center;
+    height: 40px;
+    vertical-align:middle ;
+}
+tr:hover{
+    background-color: aquamarine;
+}
+li{
+    display: inline;
+}
+a.block{
+    display: block;
+}
+h1.none{
+    display: none;
+}
+h1.hidden{
+    visibility: hidden ;
+}
+.div1{
+    width:500px;
+    border: solid 3px;
+}
+.div2{
+    max-width: 500px;
+    border: solid 3px;
+}
+/*OverFlow*/
+ div.visible{
+    margin: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    overflow: visible;
+ }
+div.hidden{
+    margin: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+div.scroll{
+    margin: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    overflow: scroll;
+}
+div.auto{
+    margin: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    overflow: auto;
+}
+div.xy{
+    margin: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+

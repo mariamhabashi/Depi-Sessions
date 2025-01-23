@@ -1,0 +1,147 @@
+body{
+    color: blueviolet;
+    background-color: lightcyan;
+}
+h1{
+    color: green;
+    background-color: white;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: left;
+}
+h4{
+    text-align: right;
+}
+div{
+    text-align:justify ;
+}
+p.a{
+    text-align-last: right;
+}
+p.b{
+    text-align-last: center;
+}
+p.c{
+    text-align-last: justify;
+}
+p.drtl{
+    direction:rtl;
+    unicode-bidi: bidi-override;
+}
+span.a{
+    vertical-align: super;
+}
+span.b{
+    vertical-align: sub;
+}
+img.a{
+    vertical-align: baseline;
+}
+img.b{
+    vertical-align: text-top;
+}
+img.c{
+    vertical-align: text-bottom;
+}
+p.ex1{
+    text-decoration: line-through;
+    text-decoration-color: black;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 2px;
+}
+p.ex2{
+    text-decoration: overline;
+    text-decoration-color: black;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+}
+p.ex3{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 25%px;
+}
+p.ex4{
+    text-decoration:underline orange dashed 2px;
+}
+indent{
+    text-indent: 50px;
+}
+h1.ex1{
+    letter-spacing: 5px;
+}
+h1.ex2{
+    letter-spacing: -2px;
+}
+p.one{
+    word-spacing: 10px;
+}
+p.two{
+    word-spacing: -2px;
+}
+p.line1{
+    line-height: 1.8;
+}
+p.line2{
+    line-height: 0.8;
+}
+p.white{
+    white-space: nowrap;
+}
+h1.sh2{
+    text-shadow: 2px 2px gray;
+}
+h1.sh3{
+    text-shadow: 2px 2px 5px rgb(224, 240, 8);
+}
+h1.sh4{
+    text-shadow: 0 0 3px red , 0 0 5px blue;
+}
+h1.sh5{
+    text-shadow: 1px 1px 2px black , 0 0 25px blue, 0 0 5px darkmagenta
+}
+.serif{
+    font-family: 'Times New Roman', Georgia, Garamond,serif;
+}
+.sans-serif{
+    font-family: Arial, Verdana, Helvetica ,sans-serif;
+}
+.monospace{
+    font-family: "Courior New","Lucida Console", monospace;
+}
+.cursive{
+    font-family: "Brush Script MT","Lucida Handwriting",cursive;
+}
+.fantasy{
+    font-family: "Cooperplate","Papyrus",fantasy;
+}
+.arial{
+    font-family: arial,sans-serif;
+}
+.verdana{
+    font-family: Verdana,sans-serif;
+}
+.tahoma{
+    font-family: tahoma,sans-serif;
+}
+.trebuchet{
+    font-family: 'Trebuchet MS' sans-serif';
+}
+.times{
+    font-family: 'Times New Roman',sans-serif;
+}
+.courier{
+    font-family: 'Courier New', monospace;
+}
+.georgia{
+    font-family: Georgia, serif;
+}
+.garamond{
+    font-family: garamond,serif;
+}
+.brush{
+    font-family: 'brush script mt',cursive;
+}

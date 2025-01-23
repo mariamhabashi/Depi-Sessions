@@ -1,0 +1,83 @@
+.normal-style{
+    font-style: normal;
+}
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+.normal-weight{
+    font-weight: normal;
+}
+.thick{
+    font-weight: bolder;
+}
+.normal-variant{
+    font-variant: normal;
+}
+.smallcaps{
+    font-variant: small-caps;
+}
+.h1-px{
+    font-size: 40px;
+}
+.p-px{
+    font-size: 14px;
+}
+.h1-em{
+    font-size: 2.5em;
+}
+.p-em{
+    font-size: 0.9em;
+}
+.h1-per{
+    font-size: 200%em;
+}
+.p-per{
+    font-size: 100%;
+}
+.h1-vw{
+    font-size: 4vw;
+}
+.p-vw{
+    font-size: 2vw;
+}
+.sofia{
+    font-family: "Sofia", cursive;
+    font-size: 24px;
+}
+.audiowide{
+    font-family: "Audiowide", sans-serif;
+    font-size: 24px;
+}
+body{
+    font-family: Verdana,sans-serif;
+}
+h1{
+    font-family: Georgia,serif;
+}
+body{
+    font-family: garamond ,serif;
+}
+h1{
+    font-family:Helvetica, sans-serif;
+}
+body{
+    font-family: "open sans",sans-serif;
+}
+h1{
+    font-family:merriweather,serif;
+}
+body{
+    font-family: lora, serif;
+}
+h1{
+    font-family:ubuntu , sans-serif;
+}
+p.a{
+    font:20px arial,sans-serif;
+}
+p.b{
+    font: italic small-caps bold 30px georgia , serif;
+}

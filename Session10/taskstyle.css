@@ -1,0 +1,43 @@
+.image{
+    width: 100%;
+    opacity: 50%;
+}
+div.parent{
+    position: relative;
+}
+div.topleft{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 3px solid darkgreen;
+    background-color: skyblue;
+}
+div.topright{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 3px solid green;
+    background-color: skyblue;
+}
+div.bottomleft{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 3px solid green;
+    background-color: skyblue;
+}
+div.bottomright{
+    position: absolute;
+    right: 0;
+    width: 173px;
+    bottom: 0;
+    border: 3px solid green;
+    background-color: skyblue;
+}
+div.centered{
+    position: absolute;
+    bottom: 50%;
+    left: 45%;
+    border: 3px solid green;
+    background-color: skyblue;
+}

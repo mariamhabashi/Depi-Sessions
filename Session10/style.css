@@ -1,0 +1,126 @@
+/*Position*/
+div.static{
+    position:static;
+    border: 3px solid green;
+}
+div.relative{
+    position:relative;
+    left: 30px;
+    border: 3px solid gray;
+}
+div.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid darkkhaki;
+}
+div.parent{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid goldenrod;
+}
+div.child{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid peru;
+}
+div.sticky{
+    position: sticky;
+    position:-webkit-sticky;
+    bottom: 0;
+    border: 3px solid rosybrown;
+    background-color: crimson;
+}
+/*z-index*/
+img.tree{
+    position: absolute;
+    width: 75px;
+    left: 0px;
+    top: 600px;
+    z-index: -1;
+}
+
+div.box{
+    position: relative;
+}
+div.black{
+    position: relative;
+    z-index: 1;
+    background-color: lightblue;
+    height: 100px;
+    margin: 30px;
+}
+div.gray{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 70%;
+    height: 50%;
+    background-color: lightgray;
+    z-index: 3;
+}
+div.red{
+    position: absolute;
+    left: 250px;
+    top: -20px;
+    width: 35%;
+    height: 75%;
+    background-color: rosybrown;
+    z-index: 2;
+}
+/*Float*/
+img.right{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    float: right;
+}
+img.left{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    float: left;
+}
+div.green{
+    float: left;
+    padding: 15px;
+    background-color: green;
+}
+div.purple{
+    float: left;
+    padding: 15px;
+    background-color: purple;
+}
+div.orange{
+    float: left;
+    padding: 15px;
+    background-color: orange;
+}
+/*Clear*/
+.clear{
+    clear: left;
+}
+.div1{
+    float: left;
+    padding: 10px;
+    border: 3px solid blue;
+}
+.div2{
+    padding: 10px;
+    border: 3px solid blue;
+}
+.div3{
+    float: left;
+    padding: 10px;
+    border: 3px solid blue;
+}
+.div4{
+    padding: 10px;
+    border: 3px solid blue;
+    clear: left;
+}

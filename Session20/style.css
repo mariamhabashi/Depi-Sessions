@@ -1,0 +1,13 @@
+#prev , #next{
+    margin-top:75px;
+    float: left;
+    height: 50px;
+}
+#slider{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.clear{
+    clear:both;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="demo1" style="width: 200px; background-color: aqua;">Hello</div>
+    <div id="demo2">Some content...</div>
+    <div id="demo3">
+        <p id="p1">This is a paragragh</p>
+        <p id="p2">This is another paragragh</p>
+    </div>
+
+    <div id="demo4">
+        <p id="p3">This is a paragragh</p>
+        <p id="p4">This is another paragragh</p>
+    </div>
+
+    <div id="container">
+        <div id="box" onclick="movediag();"></div>
+    </div>
+    <br><br>
+    <div id="container">
+        <div id="box2" onclick="moveback();"></div>
+    </div>
+    <br><br>
+    <div id="container">
+        <div id="boxi" onclick="startMovement();"></div>
+    </div>
+    
+
+    <br>
+
+    <button onclick="show();">Click Me</button>
+    
+    <br>
+
+    <button id="btn">Show Date</button>
+    <div id="dateDiv"></div>
+
+    <br>
+    <label>Enter user name</label>
+    <input type="text" id="name" onchange="change();">
+
+    <br><br><br>
+    <button onclick="TurnON();">Turn ON</button>
+    <img id="lamp" src="images/pic_bulbon.gif" onclick="lampchange();">
+    <button onclick="TurnOFF();">Turn OFF</button>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.navbar-custom {
+    background-color: #550066f6;
+}
+.navbar-custom .nav-link {
+    color: white;
+}
+.navbar-custom .nav-link.active {
+    font-weight: bold;
+}
+.banner {
+    background-color: #550066f6;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+.page2 {
+    background-color: #00bdade7;
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+}
+.page3 {
+    color: rgb(0, 119, 155);
+    padding: 50px 0;
+}
+.team-member img {
+    width: 100%;
+    height: auto;
+}
+.team-member h3 {
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}

@@ -1,0 +1,158 @@
+/*Float Example*/
+/*Grid of boxes*/
+*{
+    box-sizing: border-box;
+}
+.box{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color:lightsteelblue;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.clear::after{
+    clear: both;
+    display: table;
+}
+/*Image containers*/
+.img-container{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+img{
+    width: 100%;
+}
+p.text{
+    color: darkred;
+    text-shadow: 3px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear-fix{
+    clear: both;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+li{
+    float: left;
+    background-color: black;
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: lightcoral;
+}
+.active{
+    background-color: red;
+}
+span.a{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: lightsalmon;
+}
+span.b{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid green;
+    background-color: lightsalmon;
+}
+span.c{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: lightsalmon;
+}
+/*Center Align*/
+.center{
+    margin: auto;
+    width: 60%;
+    border: 3px solid orange;
+    padding: 10px;
+    text-align: center;
+}
+/*Image center*/
+.image-center{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid cyan;
+    padding: 10px;
+    margin: 50px;
+}
+.right2{
+    float: right;
+    width: 300px;
+    border: 3px solid cyan;
+    padding: 10px;
+    margin: 50px;
+}
+/*Center Vertically*/
+/*Using Padding*/
+.center1{
+    padding:50px 0;
+    border: 3px solid blue;
+    text-align: center;
+}
+/*Using Line-Hieght*/
+.center2{
+    line-height: 200px;
+    height: 200px;
+    border: 3px solid green;
+    text-align: center;
+}
+.vcenter{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+/*Comninators*/
+/*Descedant*/
+#div1 p{
+    background-color: lightgrey;
+}
+/*Child*/
+#div2 > p { /*اي حاجة جوا الديف في مستوى التشايلد*/
+    background-color: lightgreen;
+}
+#div3 + p { /*first element after div*/
+    background-color: lightpink;
+}
+#div4 ~ p{
+    background-color: lightsteelblue;
+}
+/*Opacity*/
+.img-opacity{
+    width: 160px;
+    height: 200px;
+    opacity: 0.5;
+}
+.img-opacity:hover{
+    opacity: 1;
+}

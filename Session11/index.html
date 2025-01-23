@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--Float Example-->
+        <!--Grid of boxes-->
+        <div class="clear">
+            <div class="box">
+                <p>You did</p>
+            </div>
+            <div class="box">
+                <p>a Graet</p>
+            </div>
+            <div class="box">
+                <p>Job!</p>
+            </div>
+        </div>
+        <!--Images side by side-->
+        <div class="clear">
+            <div class="img-container">
+                <img src="Solo.jpg">
+            </div>
+            <div class="img-container">
+                <img src="Screen.png">
+                <p class="text">Proud of youuuuuuuuuuuuuuuuuuuuuuuz</p>
+                <img src="Official.jpg">
+            </div>
+            <div class="img-container">
+                <img src="Pallons.jpg" class="pallons">
+            </div>
+        </div>
+        <br class="clear-fix">
+        <!--Nav Bar-->
+        <ul>
+            <li>
+                <a href="#home" class="active">Home</a>
+            </li>
+            <li>
+                <a href="#news">News</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+        </ul>
+        <br class="clear-fix">
+
+        <!--Block,Inline,Inline-Block-->
+        <h2>Inline</h2>
+        <div>Lorem ipsum dolor sit amet consectetur adipicing elit.
+            Id vero soluta, voluptatem ex explacibo quam enim,
+            asperioes necssitatibus <span class="a">laborun</span>
+            <span class="a">temporibus</span>odit?
+            Accusantium voluptate a doloremque id,
+            nobis facilis vel ab!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsam quas autem reiciendis enim, quasi odio ab ut harum doloremque distinctio molestias alias nobis mollitia tempora, blanditiis deserunt omnis consectetur.
+        </div>
+        <h2>Block</h2>
+        <div>Lorem ipsum dolor sit amet consectetur adipicing elit.
+            Id vero soluta, voluptatem ex explacibo quam enim,
+            asperioes necssitatibus <span class="b">laborun</span>
+            <span class="b">temporibus</span>odit?
+            Accusantium voluptate a doloremque id,
+            nobis facilis vel ab!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsam quas autem reiciendis enim, quasi odio ab ut harum doloremque distinctio molestias alias nobis mollitia tempora, blanditiis deserunt omnis consectetur.
+        </div>
+        <h2>Inline-Block</h2>
+        <div>Lorem ipsum dolor sit amet consectetur adipicing elit.
+            Id vero soluta, voluptatem ex explacibo quam enim,
+            asperioes necssitatibus <span class="c">laborun</span>
+            <span class="c">temporibus</span>odit?
+            Accusantium voluptate a doloremque id,
+            nobis facilis vel ab!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsam quas autem reiciendis enim, quasi odio ab ut harum doloremque distinctio molestias alias nobis mollitia tempora, blanditiis deserunt omnis consectetur.
+        </div>
+
+        <!--Horizontal & Vertical Align-->
+        <!--Center Align-->
+        <div class="center">
+            <p>Hello World!</p>
+        </div>
+        <!--Center image-->
+        <img src="pineapple.jpg" class="image-center">
+
+        <!--Left/Right-->
+        <!--Using Poition-->
+        <div  class="right">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi iure cumque ea neque esse! Fugiat, accusamus labore excepturi porro ex incidunt iusto vel maiores, atque quae facere quasi molestias!</p>
+        </div>
+        <br>
+
+        <!--Using Float-->
+        <div  class="right2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi iure cumque ea neque esse! Fugiat, accusamus labore excepturi porro ex incidunt iusto vel maiores, atque quae facere quasi molestias!</p>
+        </div>
+        <br class="clear-fix">
+
+        <!--Center Vertically-->
+        <!--Using Padding-->
+        <div class="center1">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quos repellat fugiat nihil, dicta eum cupiditate impedit earum sit debitis nostrum deleniti iste perferendis neque odit ex quae illum</p>
+        </div>
+        <!--Using Line-Hieght-->
+        <div class="center2">
+            <p class="vcenter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quos repellat fugiat nihil, dicta eum cupiditate impedit earum sit debitis nostrum deleniti iste perferendis neque odit ex quae illum</p>
+        </div>
+
+        <!--Comninators-->
+        <!--explains the relationship bet,selectors-->
+        <!-- space + ~ --> 
+        <!--Descedant-->
+        <div id="div1">
+            <p>paragraph1</p>
+            <p>paragraph2</p>
+            <section>
+                <p>paragraph3</p>
+            </section>
+            <p>paragraph4</p>
+
+        <!--Child-->
+        <div id="div2">
+            <p>paragraph1</p>
+            <p>paragraph2</p>
+            <section>
+                <p>paragraph3</p>
+            </section>
+            <p>paragraph4</p>
+        </div>
+
+        <!--Adjacent Sibling-->
+        <div id="div3">
+            <p>paragraph1</p>
+            <p>paragraph2</p>
+        </div>
+        <p>paragraph3</p>
+        <p>paragraph4</p>
+
+        <!--General Sibling-->
+        <div id="div4">
+            <p>paragraph1</p>
+            <p>paragraph2</p>
+        </div>
+        <p>paragraph3</p>
+        <p>paragraph4</p>
+
+        <!--Opacity-->
+        <img src="pineapple.jpg" class="img-opacity">
+        <img src="tree.png" class="img-opacity">
+        
+    </body>
+</html>

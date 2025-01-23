@@ -1,0 +1,92 @@
+/*External style*/
+body {
+                background-color: rgba(109, 197, 175, 0.582);
+}
+
+h1{
+                color: rgb(0, 56, 78);
+                text-align: left;
+}
+            /*selectors*/
+            /*element selector*/
+p{
+    text-align: center;
+    color: rgb(235, 0, 0);
+}
+#pid{
+    color: darkmagenta;
+}
+.pcenter{
+    color: orange;
+    text-align: center;
+}
+.rightClass{
+    text-align: right;
+    color: rgb(0, 5, 5);
+}
+/*Multiple classes*/
+.pred{
+    color: red;
+}
+.plarge{
+    font-size: large;
+}
+/*Universal Selector*/
+*{
+    font-weight: bolder;
+    color: brown;
+}
+/*Css colors*/
+.h1CN{
+    color: dodgerblue;
+}
+.pCN{
+    background-color: tomato;
+}
+/*Color values RGB 
+rgb(255,99,71)
+*/
+.h1rgb{
+    background-color:rgb(255, 99, 71);
+}
+.h1rgba{
+    background-color: rgb(255, 99, 71,0.5);
+}
+/*HEX Values
+#ff6347
+*/
+.h1hex{
+    background-color: #ff6347;
+}
+.h1hexa{
+    background-color: #FF8469 ;
+}
+/*HSL =Hue Saturation Lightness
+hsl(9,100%,65%)
+*/
+.h1hsl{
+    background-color: hsl(9, 100%, 65%);
+}
+.h1hsla{
+    background-color: hsl(11, 59%, 71%);
+}
+
+/*CSS Backgrounds*/
+/*Backgroung Color*/
+#divbg{
+    background-color: greenyellow;
+    opacity: 0.5;
+}
+/*Background image*/
+body{
+    background-image: url(BG.jpeg);
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-attachment:fixed;
+
+}
+/*Background short hand*/
+body{
+    background: #000000 url(BG.jpeg) no-repeat right top fixed;
+}
+
